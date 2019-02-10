@@ -26,6 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    def aws_version = "2.11.2"
+    def aws_version = "2.12.0"
     implementation "com.amazonaws:aws-android-sdk-cognitoidentityprovider:$aws_version"
 }
